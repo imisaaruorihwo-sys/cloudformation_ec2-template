@@ -1,6 +1,8 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: A sample CloudFormation template with YAML comments.
+Resources:
   MyEC2Instance: 
     Type: AWS::EC2::Instance
-    Description: Practice.
     Properties: 
       ImageId: "ami-0623300d1b7caee89"
       AvailabilityZone: us-west-1a
